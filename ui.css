@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+a {
+
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  /* overflow-x: hidden; */
+  /* display: grid; */
+
+}
+
+html {
+  /* overflow-x: hidden; */
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/abstract-green-waves-background-dynamic-shapes-composition-vector-illustration_1142-13285.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec {
+  display: flex;
+}
+
+
+
+
+
+.navbar {
+  width:17rem;
+  height: 100vh;
+  color: white;
+  background-color: rgb(8, 8, 38);
+  display: flex;
+  overflow: hidden;
+  transition: all .4s ease;
+  padding: 1rem;
+}
+
+.navbar ul {
+  padding: 1vw;
+}
+.hovering {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+
+.navbar ul li {
+  margin-top: 30px;
+  font-size: 2vw;
+  list-style-type: none;
+  align-items: center;
+}
+
+/* .smallnav ul {
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.dropdownlist {
+  width: 250px;
+  height: 960px;
+  background-color: rgba(248, 237, 229, 0.913);
+  position: absolute;
+  /* top: 120px; */
+/* list-style-type: none;
+  left: -200px;
+  z-index: 10;
+} */
+
+/* .dropdownlist ul li {
+  display: block;
+  text-decoration: none;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+} */
+
+
+@media (max-width:655px) {
+  .navbar {
+    /* width:25rem; */
+
+  }
+
+  /* .smallnav {
+    display: flex;
+  } */
+
+  #opennav:checked~.dropdownlist {
+    left: 0px;
+    transition: left 1s;
+  }
+}
+
+.center {
+  margin-left: 35vw;
+  border-radius: 15px;
+  margin-top: 8vw;
+  width: 15vw;
+  height: 18vw;
+  padding: 100px;
+  box-shadow: 0px 0px 5px 2px gray;
+  background-color: rgb(10, 120, 163);
+
+}
+
+.here {
+  font-size: 30px;
+  color: white;
+}
+
+.here1 {
+  font-size: 18px;
+  width: 170px;
+}
+
+.demo {
+  margin-left: 20vw;
+  position: absolute;
+}
+
+.button {
+  border: 0vw;
+  height: 4vw;
+  border-radius: 0.5vw;
+  background-color: rgb(97, 97, 97);
+  font-size: 1.5vw;
+  color: rgb(193, 177, 162);
+}
+
+#table {
+  margin-top: 8vw;
+  border: 0.1vw;
+  margin-left: 20vw;
+}
+
+
+.tot {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.tot1 {
+  border: 0.5vw solid gray;
+  border-radius: 0.5vw;
+}
+
+.dvv img {
+  width: 100vw;
+  height: 48vw;
+}
+
+main {
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.flex {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  background-color: rgb(8, 8, 38);
+  height: fit-content;
+  list-style-type: none;
+  color: white;
+}
+
+.flex img {
+  width: 3vw;
+}
+
+.flex1 {
+  width: 100%;
+}
+
+.pic {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+.pic li {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  /* border: 10px solid black; */
+}
+
+.pic img {
+  width: 80%;
+}
+
+/* ***************************************** */
+.arrow{
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background: transparent;
+  display: none;
+}
+@media (max-width:600px) {
+  #left{
+    display: block;
+  }
+}
